@@ -27,3 +27,4 @@ jobs:
 
           ssh -i ~/.ssh/ec2_key "$EC2_USER@$EC2_HOST" \
             'cd ~/myapp && git pull origin main && pm2 restart app'
+# deployment test
